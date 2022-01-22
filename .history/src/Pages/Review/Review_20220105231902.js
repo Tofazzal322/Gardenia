@@ -33,7 +33,7 @@ const Review = () => {
               <Col>
                 <Card className="news-card">
                   <Card.Img
-                    className="img-size mx-auto "
+                    className="img-size mx-auto rounded-circle"
                     variant="top"
                     src={news.img}
                   />
@@ -56,7 +56,7 @@ const Review = () => {
               <Col>
                 <Card className="news-card">
                   <Card.Img
-                    className="img-size mx-auto "
+                    className="img-size mx-auto rounded-circle"
                     variant="top"
                     src={news.img}
                   />
@@ -80,7 +80,7 @@ const Review = () => {
               <Col>
                 <Card className="news-card">
                   <Card.Img
-                    className="img-size mx-auto "
+                    className="img-size mx-auto rounded-circle"
                     variant="top"
                     src={news.img}
                   />

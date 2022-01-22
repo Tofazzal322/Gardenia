@@ -42,7 +42,7 @@ function App() {
             <Route path="/fqa" element={<FQA></FQA>}></Route>
             <Route path="/Login" element={<Login></Login>}></Route>
             <Route path="/Register" element={<Register></Register>}></Route>
-            <Route path="/*" element={<NotFound/>}></Route>
+            <Route path="*" element={<NotFound/>}></Route>
 
             <Route path="/mycart" element={<PrivateRoute> <Cart/></PrivateRoute>}></Route>
 

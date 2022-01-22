@@ -24,7 +24,6 @@ import SubmitReview from './Pages/Review/SubmitReview';
 import AllProducts from './Dashboard/AdminDashboard/AllProducts';
 import UpdateProducts from './Dashboard/AdminDashboard/UpdateProducts';
 import AllOrders from './Dashboard/AdminDashboard/AllOrders';
-import NotFound from "./Pages/Contact/NotFound/NotFound";
 
 
 
@@ -42,7 +41,6 @@ function App() {
             <Route path="/fqa" element={<FQA></FQA>}></Route>
             <Route path="/Login" element={<Login></Login>}></Route>
             <Route path="/Register" element={<Register></Register>}></Route>
-            <Route path="/*" element={<NotFound/>}></Route>
 
             <Route path="/mycart" element={<PrivateRoute> <Cart/></PrivateRoute>}></Route>
 
@@ -73,6 +71,8 @@ function App() {
               <Route path="/dashboard/allOrders" element={<PrivateRoute><AllOrders/> </PrivateRoute>}></Route>
             </Route>
 
+
+           
           </Routes>
         </BrowserRouter>
       </AuthProvider>
@@ -83,3 +83,6 @@ function App() {
 export default App;
 
 
+
+<Routes>
+            <Route path="/" element={<Home></Home>}></Route>

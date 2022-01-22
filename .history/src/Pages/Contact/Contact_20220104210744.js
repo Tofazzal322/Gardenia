@@ -45,6 +45,8 @@ const Contact = () => {
             <h2 className="mt-0 text-center fw-bold">Contact Us</h2>
           </div>
 
+          
+
           <Col>
             <div className="col-lg-12  contact-part">
               <h1>Our Address Support</h1>
