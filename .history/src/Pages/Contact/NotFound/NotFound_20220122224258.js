@@ -10,7 +10,7 @@ const NotFound = () => {
         },3000)
     },[history])
     return (
-        <div className='App text-center mt-5'>
+        <div className='App text-center m'>
            <h1> Page Not Found</h1>
         </div>
     );

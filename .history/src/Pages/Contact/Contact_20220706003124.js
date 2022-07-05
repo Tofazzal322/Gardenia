@@ -58,7 +58,7 @@ const Contact = () => {
                     <div className="col-2 fs-2 mt-1 info-i">{location}</div>
                     <div className="col-10">
                       <h5 className="fw-bold">Company Office</h5>
-                      <p>Al Khuwair, Muscat, Oman.</p>
+                      <p>Khulshi, Chittagong, Bangladesh.</p>
                     </div>
                   </Row>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                     <div className="col-2 fs-2 mt-1 info-i">{phone}</div>
                     <div className="col-10">
                       <h5 className="fw-bold">Hotline Number</h5>
-                      <p>+968 93554255</p>
+                      <p>+</p>
                     </div>
                   </Row>
                 </div>

@@ -58,7 +58,7 @@ const Contact = () => {
                     <div className="col-2 fs-2 mt-1 info-i">{location}</div>
                     <div className="col-10">
                       <h5 className="fw-bold">Company Office</h5>
-                      <p>Al Khuwair, Muscat, Oman.</p>
+                      <p>Al Khuwair, Chittagong, Bangladesh.</p>
                     </div>
                   </Row>
                 </div>
